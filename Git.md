@@ -1,6 +1,6 @@
 
 <details>
-<summary>1. What is Git, and why is it used?</summary>
+<summary><strong>1. What is Git, and why is it used?</strong></summary>
 
 Git is a distributed version control system that helps us track changes in source code and collaborate with multiple developers.
 
@@ -14,7 +14,7 @@ Git is a distributed version control system that helps us track changes in sourc
 </details>
 
 <details open>
-<summary>2. What is the difference between a Centralized Version Control System (CVCS) and a Distributed Version Control System (DVCS)?</summary>
+<summary><strong>2. What is the difference between a Centralized Version Control System (CVCS) and a Distributed Version Control System (DVCS)?</strong></summary>
 
 The main difference is where the version history is stored.
 
