@@ -1,5 +1,5 @@
 <details>
-<summary><br>What is Git, and why is it used?<br></bbr></summary><br>
+<summary><br>What is Git, and why is it used?<br></br></summary><br>
 
 Git is a distributed version control system that helps us track changes in source code and collaborate with multiple developers.
 
