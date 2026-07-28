@@ -1,3 +1,4 @@
+
 <details>
 <summary><br>1. What is Git, and why is it used? </br></summary><br>
 
