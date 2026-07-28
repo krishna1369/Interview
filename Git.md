@@ -34,11 +34,141 @@ Distributed Version Control System (DVCS):
 
 </details>
 
+
+<details>
+<summary><strong>Explain the Git architecture.</strong></summary>
+
+```text
+
+## Interview Answer
+
+> **Git follows a distributed architecture, which means every developer has a complete copy of the repository, including the entire commit history. This makes Git fast, reliable, and allows developers to work offline.**
+
+### Git Architecture
+
+```
+                  Remote Repository
+             (GitHub / GitLab / Bitbucket)
+                       ▲
+                 git push / git pull
+                       │
+                Local Repository (.git)
+               (Complete commit history)
+                       ▲
+                  git commit
+                       │
+                Staging Area (Index)
+                       ▲
+                   git add
+                       │
+                Working Directory
+          (Where we create/edit files)
+```
+
+### Explain Each Component
+
+#### 1. Working Directory
+
+* This is where we write or modify our code.
+* Any changes we make are initially only in the working directory.
+
+**Example:**
+
+> I edit `app.py` to add a new feature.
+
+---
+
+#### 2. Staging Area (Index)
+
+* The staging area acts as a **temporary holding area**.
+* We use `git add` to move selected changes here before committing.
+
+**Command:**
+
+```bash
+git add app.py
+```
+
+**Why it's useful:**
+
+> It lets us choose exactly which changes should be included in the next commit.
+
+---
+
+#### 3. Local Repository
+
+* When we run `git commit`, Git saves the staged changes permanently in the local repository.
+* The local repository stores the **entire project history**.
+
+**Command:**
+
+```bash
+git commit -m "Added login feature"
+```
+
+---
+
+#### 4. Remote Repository
+
+* This is the shared repository hosted on platforms like GitHub or GitLab.
+* It is used for collaboration with other developers.
+
+**Commands:**
+
+```bash
+git push origin main
+```
+
+```bash
+git pull origin main
+```
+
+---
+
+## Workflow
+
+```
+Modify Code
+     │
+     ▼
+Working Directory
+     │
+ git add
+     ▼
+Staging Area
+     │
+git commit
+     ▼
+Local Repository
+     │
+git push
+     ▼
+Remote Repository
+```
+
+---
+
+## One-Line Answer (if the interviewer asks briefly)
+
+> **Git architecture consists of four main components: the Working Directory, Staging Area, Local Repository, and Remote Repository. Changes move from the Working Directory → Staging Area → Local Repository → Remote Repository, enabling efficient version control and collaboration.**
+
+---
+
 </details>
 
-<details open>
-<summary><br></br></summary><br>
+<details>
+<summary><strong>Question</strong></summary>
 
+```text
+Answer
+
+Key Points:
+
+• Point 1
+• Point 2
+• Point 3
+• Point 4
+```
 
 </details>
 
